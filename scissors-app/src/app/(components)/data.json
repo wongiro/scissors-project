@@ -1,0 +1,27 @@
+[
+  {
+      "idx": 1,
+      "question":"What is Scissors?",
+      "answer":"Scissors is a free URL shortener that allows you to create short links that can be easily shared on social media, blogs, and websites. Scissors is a free URL shortener that allows you to create short links that can be easily shared on social media, blogs, and websites."
+  },
+  {
+      "idx": 2,
+      "question":"How do I use scissors to shorten my URL?",
+      "answer":"To shorten your URL, you just have to paste your long URL in the given text box and click on the 'Shorten' button. Your short URL will be generated in a few seconds."
+  },
+  {
+      "idx": 3,
+      "question":"What are the benefits of link shortening?",
+      "answer":"Link shortening is a technique that is used to shorten the URL of a webpage. It is beneficial for the following reasons: It makes the URL easy to remember. It is easy to share. It is easy to track."
+  },
+  {
+      "idx": 4,
+      "question":"How can I sign up for scissors?",
+      "answer":"To sign up for scissors, you just have to click on the 'Sign Up' button and fill in the required details."
+  },
+  {
+      "idx": 5,
+      "question":"What is needed to sign up for scissors?",
+      "answer":"To sign up for scissors, you just have to provide your email address and password."
+  }
+]
