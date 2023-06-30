@@ -43,19 +43,19 @@ const LandingPage = (props: Props) => {
   return (
     <section className="flex flex-row justify-center items-center  order-1 grow-0 p-0 h-screen">
       
-      <div className='backGround bg-[url(/images/Sprinkle.svg)] bg-no-repeat bg-cover w-full h-full'>
+      <div className='backGround bg-blue-100 bg-no-repeat bg-cover w-full h-full'>
         <div className='border-blue-600 flex flex-col mt-[15%] items-center h-screen '>
-          <h1 className='text-xxl font-normal text-[#FFF] flex flex-col items-center text-center'>
+          <h1 className='text-xxl font-bold text-[#000] flex flex-col items-center text-center'>
             Optimize Your Online Experience with Our Advanced 
-            <span className='bg-gradient-to-l text-sky-300'>URL Shortening</span> 
+            <span className='bg-gradient-to-l text-sky-400'>URL Shortening</span> 
             Solution.
           </h1>
-          <p className='gap-6 text-blue-100 mt-[10%] flex flex-col items-center justify-center p-5 '>
+          <p className='gap-6 text-black  mt-[5%] flex flex-col items-center justify-center p-5 '>
           Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.
           </p>
           <button className='bg-gradient-to-r from-blue-700 to-sky-200 rounded-lg w-[250px] h-[50px] mt-[10%] flex flex-col items-center justify-center p-5'>
             <Link href='/signup' className='text-xl font-bold text-[#FFF]'>
-              Sign Up
+              Get Started
             </Link>
           </button>
         </div>
