@@ -5,6 +5,7 @@ import Faq from './(components)/Faq'
 import Footer from './(components)/Footer'
 import Revolutionize from './(components)/Revolutionize'
 import LandingPage from './(components)/LandingPage'
+import Navbar from './(components)/Navbar'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
+        <Navbar />
         <LandingPage />
         <Faq />
         <Revolutionize />

@@ -23,7 +23,7 @@ const Footer = (props: Props) => {
           </div>
         </div>
 
-      <div className='contentContainer grid grid-flow-row p-10 mt-10 '>
+        <div className='contentContainer grid grid-flow-row p-10 mt-10 '>
          <div className='heading flex flex-row'>
            <h1 className='font-bold text-sm'>Why Scissor?</h1>
          </div>
