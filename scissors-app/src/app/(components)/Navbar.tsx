@@ -6,7 +6,7 @@ type Props = {};
 
 const NavBar = (props: Props) => {
   return (
-    <nav className="navbar relative bg-gradient-to-l from-blue-700 to-blue-50 flex lg:flex-row md:flex-row flex-col justify-between gap-5 lg:px-[100px] md:px-[100px] px-[50px] lg:py-10 md:py-10 py-5">
+    <nav className="navbar relative bg-gradient-to-l flex lg:flex-row md:flex-row flex-col justify-between gap-5 lg:px-[100px] md:px-[100px] px-[50px] lg:py-10 md:py-10 py-5">
       <div className="flex md:flex-row lg:flex-row flex-col justify-between">
 
           <div className='logo bg-gradient-to-r from-blue-700 to-blue-50 flex flex-row'>
@@ -33,12 +33,16 @@ const NavBar = (props: Props) => {
       </div>
 
       <div className="flex lg:flex-row md:flex-row flex-col gap-2">
-        <button className="text-black text-lg font-semibold border border-blue-50 w-[100px] h-[40px] text-center rounded-md">
-          <Link href="/login">Sign Up</Link>
+        <button className="text-black text-lg font-semibold border  w-[100px] h-[40px] text-center rounded-md">
+          <Link href="/SignUp">
+            <span>Sign Up</span>
+          </Link>
         </button>
 
-        <button className="text-sky-50 text-lg font-semibold border border-black w-[100px] h-[40px] text-center rounded-md">
-          <Link href="/login">Free Trial</Link>
+        <button className="text-black text-lg font-semibold border border-gradient-to-l from-blue-700 to-blue-50 w-[100px] h-[40px] text-center rounded-md">
+        <Link href="#">
+          <span>Free Trial</span>
+        </Link>
         </button>
 
       </div>
