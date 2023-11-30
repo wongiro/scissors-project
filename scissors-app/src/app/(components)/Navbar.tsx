@@ -9,7 +9,7 @@ const NavBar = (props: Props) => {
     <nav className="navbar relative bg-gradient-to-l flex lg:flex-row md:flex-row flex-col justify-between gap-5 lg:px-[100px] md:px-[100px] px-[50px] lg:py-10 md:py-10 py-5">
       <div className="flex md:flex-row lg:flex-row flex-col justify-between">
 
-          <div className='logo bg-gradient-to-r from-blue-700 to-blue-50 flex flex-row'>
+          <div className='logo bg-gradient-to-r from-blue-700 to-blue-50 p-1 flex flex-row'>
             <Link href='/' ><TiLink className='w-[34px] h-[34px]' /></Link>
             <Link href='#' className='font-bold text-xl '> | SCISSORS</Link>
           </div>
