@@ -95,9 +95,9 @@ const LandingPage = (props: Props) => {
   };
 
   return (
-    <section className="flex flex-row justify-center items-center order-1 grow-0 p-0 h-screen">
-      <div className="backGround bg-no-repeat bg-cover w-full border-4 border-blue-500 m-6 rounded-lg h-full">
-        <div className="flex flex-col mt-[15%] items-center h-screen ">
+    <section className="flex flex-row justify-center items-center order-1 grow-0 p-0 h-screen mx-auto shadow-md overflow-hidden md:flex">
+      <div className="backGround bg-no-repeat bg-cover w-full border-4 border-blue-500 m-6 rounded-lg h-full md:h-full md:w-full">
+        <div className="flex flex-col mt-[15%] items-center h-screen md:shrink-0">
           <h1 className="text-xxl font-bold text-[#000] flex flex-col items-center text-center">
             Optimize Your Online Experience with Our Advanced
             <span className="bg-gradient-to-l text-sky-600">
