@@ -5,7 +5,7 @@ import Image from 'next/image'
 type Props = {
     question :string,
     answer: string,
-    id: number
+    idx: number
 }
 
 interface LayoutProps {
@@ -48,7 +48,7 @@ const Layout = ({handleClick, isSomeActive, data, turn, setTurn}:LayoutProps) =>
                 answer={el.answer}
                 turn={turn}
                 setTurn={setTurn}
-                id={el.id}
+                id={el.idx}
                 />
             </div>
         )
